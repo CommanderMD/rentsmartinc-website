@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rent Smart Inc. — Active rental properties in Grenada, Mississippi. AI-managed, cash-flow positive portfolio.">
+  <title>Properties | Rent Smart Inc.</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <div class="nav-logo"><span class="logo-main">RENT SMART</span><span class="logo-sub">INC.</span></div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="properties.html" class="active">Properties</a></li>
+        <li><a href="platform.html">Platform</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary nav-cta">Schedule a Call</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Our <span class="gold">Properties</span></h1>
+      <p>Active rental units generating consistent cash flow across Mississippi markets</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="prop-filters">
+        <button class="filter-btn active" data-filter="all">All Properties</button>
+        <button class="filter-btn" data-filter="occupied">Occupied</button>
+        <button class="filter-btn" data-filter="available">Pipeline</button>
+        <button class="filter-btn" data-filter="development">In Development</button>
+      </div>
+      <div class="prop-grid" id="propGrid"></div>
+    </div>
+  </section>
+
+  <section class="cta-strip">
+    <div class="container cta-strip-inner">
+      <div><h3>Interested in Partnership?</h3><p>Inquire about investment opportunities in our portfolio.</p></div>
+      <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="nav-logo"><span class="logo-main">RENT SMART</span><span class="logo-sub">INC.</span></div>
+        <p>Building the future of real estate investment through technology, discipline, and operational excellence.</p>
+        <span class="badge badge-gold">🎖️ Proudly Veteran-Owned</span>
+      </div>
+      <div class="footer-links">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="properties.html">Properties</a></li>
+          <li><a href="platform.html">Platform</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h5>Contact</h5>
+        <p>Mississippi, USA</p>
+        <p><a href="mailto:ericarmstrong@techsmart1.com">ericarmstrong@techsmart1.com</a></p>
+        <p><a href="tel:6629019824">(662) 901-9824</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>© 2026 Rent Smart Inc. All rights reserved.</p></div>
+  </footer>
+  <script src="js/main.js"></script>
+  <script src="js/properties.js"></script>
+</body>
+</html>
